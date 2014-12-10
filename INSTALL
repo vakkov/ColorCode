@@ -1,0 +1,18 @@
+# simply run:
+
+qmake-qt4
+make
+
+# note: maybe your QT installation only provides
+# qmake (not qmake-qt4). That is ok as long as
+# qmake -v shows something like:
+# "Using Qt version 4.5.x" or higher versions
+# in this case run:
+# qmake
+# make
+
+# to install:
+cp colorcode /usr/bin/
+
+# to uninstall:
+rm /usr/bin/colorcode
